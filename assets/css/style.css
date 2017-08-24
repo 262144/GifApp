@@ -7,6 +7,7 @@ body {
 .container {
 	background-color: gold;
 	border: 3px solid red;
+	margin-bottom: 50px;
 }
 
 div {
