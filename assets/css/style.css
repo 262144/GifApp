@@ -1,0 +1,76 @@
+body {
+	background-image: url(../images/background.png);
+	font-family: serif;
+	padding-top: 20px;
+}
+
+.container {
+	background-color: gold;
+	border: 3px solid red;
+}
+
+div {
+	text-align: center;
+}
+
+.outer-row, .image-row {
+	border: 3px solid red;
+}
+
+.image-row {
+	border-top: 0px;
+	text-align: left;
+}
+
+.message-row {
+	border-right: 3px solid red;
+	border-left: 3px solid red;
+}
+
+#state-buttons {
+	text-align: center;
+}
+
+.btn-primary {
+	margin: 10px;
+	margin-bottom: 10px;
+	min-width: 110px;
+	max-width: 110px;
+	min-height: 35px;
+	overflow: hidden;
+	font-size: 75%;
+}
+
+.left-column {
+	border-right: 3px solid red;
+}
+
+.heading-row {
+	border-bottom: 3px solid red;
+}
+
+.buttons-row {
+	margin-bottom: 10px;
+	min-height: 70px;
+}
+
+img {
+	margin: 15px;
+	cursor: pointer;
+}
+
+img:hover {
+	opacity: .8;
+}
+
+.image-row {
+	min-height: 200px
+}
+
+input {
+	width: 95%;
+}
+
+btn-danger {
+	width: 98%;
+}
