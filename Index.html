@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>State GIFs</title>
+	<script type="text/javascript" src="assets/javascript/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="row outer-row">
+
+			<div class="col-xs-7 col-sm-8 col-md-9 outer-column left-column">
+
+				<div class="row inner-row heading-row">
+					<div class="col-xs-12">
+						<h1>State GIFs</h1>
+						<h3>Click a button to see GIFs for each state.</h3>
+					</div><!--end of col-xs-12-->
+				</div><!--end of inner-row-->
+
+				<div class="row inner-row buttons-row">
+					<div class="col-xs-12" id="state-buttons">
+					</div>
+				</div><!--end of inner-row-->
+
+			</div><!--end of outer-column-->
+
+			<div class="col-xs-5 col-sm-4 col-md-3 outer-column right-column">
+				<form id="states-form">
+					<label for="state-input"><br><br><h4>Type the name of a state:</h4></label><br>
+					<input type="text" id="state-input"><br><br>
+					<button id="add-state" type="submit" class="btn btn-danger">Click Here to Add <br>Its Button</button>
+				</form>
+			</div><!--end of outer-column-->
+
+		</div><!--end of main-row-->
+
+		<div class="row message-row">
+			<h3 id="message"></h3>
+		</div>
+
+		<div class="row image-row" id="images">
+			
+		</div>
+
+	</div><!--end of container-->
+	<script src="assets/javascript/gifApp.js"></script>
+</body>
+</html>
