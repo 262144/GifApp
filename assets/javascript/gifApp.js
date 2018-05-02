@@ -102,23 +102,3 @@ $(document).on("click", ".stateButton", displayGifs);
 
 $(document).on("click", "img", changeMotion);
 	
-	
-
-
-	 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
